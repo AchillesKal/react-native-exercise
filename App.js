@@ -4,6 +4,8 @@ import { View } from "react-native";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import Card from "./app/components/Card";
 import ListingDeatailsScreen from "./app/screens/ListingDetailsScreen";
+import ViewImageScreen from "./app/screens/ViewImageScreen";
+import MessagesScreen from "./app/screens/MessagesScreen";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
     //     image={require("./app/assets/jacket.png")}
     //   ></Card>
     // </View>
-    <ListingDeatailsScreen></ListingDeatailsScreen>
+    // <ListingDeatailsScreen></ListingDeatailsScreen>
+    // <ViewImageScreen></ViewImageScreen>
+    <MessagesScreen></MessagesScreen>
   );
 }
